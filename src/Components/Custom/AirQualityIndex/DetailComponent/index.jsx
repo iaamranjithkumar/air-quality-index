@@ -37,7 +37,7 @@ export default function Details(props){
        {props.currentAllAirIndex && <div className='aqi-all-city-content'>
            <h3>Live AQI Chart</h3>
            <div className='aqi-bar-chart'>
-                <BarChart data={props.currentAllAirIndex}></BarChart>
+                <BarChart data={props.currentAllAirIndex} height={200}></BarChart>
             </div>
         </div>}
     </section>)

@@ -72,7 +72,7 @@ function App() {
             {airIndex &&  <Details title="Live AQI of Indian Cities" data={airIndex} currentAllAirIndex={currentAllCityIndex}></Details>}
           </div>
           {airIndexHistory && <ListCities cityList={airIndexHistory} /> }
-          {/* {airIndexOverall && <div className='city-comparision-container'><LineChart key={'overall'} data={airIndexOverall} val={'Overall'}></LineChart></div>} */}
+          {/* {airIndexOverall && <div className='city-comparision-container'><LineChart key={'overall'} data={airIndexOverall} val={'Overall'} height={200}></LineChart></div>} */}
         </section>
         <ToastContainer
       />

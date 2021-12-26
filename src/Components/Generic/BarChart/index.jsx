@@ -25,6 +25,6 @@ export default function BarChart(props){
       <Bar
         data={props.data}
         options={props.options || {}}
-        height={200}
+        height={props.height}
     ></Bar></div>)
 }

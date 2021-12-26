@@ -26,6 +26,6 @@ export default function LineChart(props){
     return(<div className={`line-chart line-${props.val}`}>
       <Line
         data={props.data}
-        height={200}
+        height={props.height}
     ></Line></div>)
 }

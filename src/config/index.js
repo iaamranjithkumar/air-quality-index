@@ -3,6 +3,6 @@ export const environmentVariables = {
         "AQI_WS_URL":"ws://city-ws.herokuapp.com"
     },
     production:{
-        "AQI_WS_URL":"ws://city-ws.herokuapp.com"
+        "AQI_WS_URL":"wss://city-ws.herokuapp.com"
     }
 }
